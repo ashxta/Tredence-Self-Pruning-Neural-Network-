@@ -55,6 +55,7 @@ that connection from the network.
 - The sparsity-accuracy trade-off is clear and monotonic.
 - At λ=1e-4 the network retains most connections (mild pruning).
 - At λ=5e-3 nearly 90% of weights are removed with a moderate accuracy drop.
+  
 
 ---
 
@@ -75,8 +76,10 @@ gates are being decisively pushed to either "off" (≈0) or "on" (≈1).
 
 ```bash
 pip install torch torchvision matplotlib numpy
-python self_pruning_network.py
+python Tredence Self-Pruning Neural Network.py
 ```
 
 CIFAR-10 will be auto-downloaded to `./data/` on first run.  
 Gate distribution PNG files are saved to the working directory.
+
+
