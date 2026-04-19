@@ -55,7 +55,8 @@ that connection from the network.
 - The sparsity-accuracy trade-off is clear and monotonic.
 - At λ=1e-4 the network retains most connections (mild pruning).
 - At λ=5e-3 nearly 90% of weights are removed with a moderate accuracy drop.
-  
+  <img width="1538" height="641" alt="image" src="https://github.com/user-attachments/assets/49af2592-4f8d-445f-9f98-ba0f775c8904" />
+
 
 ---
 
